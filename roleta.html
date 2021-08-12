@@ -8,12 +8,12 @@
 
 <body>
     <header>
-        <h1>Roleta da Tabuada</h1>
+        <h1>Jogo da Tabuada</h1>
 
     </header>
     <section>
         <div>
-            <p>Clique e resolva a tabuada dos números sorteados:</p>
+            <p><strong>Clique para Sortear os números e resolva a Multiplicação :</strong></p>
         </div>
         <div class="container-a">
             <button id="generate1">Sortear 1º Número </button>
@@ -40,14 +40,18 @@
         <p class="resultado"></p>
 
         <div class="centro">
-            Digite a resposta:
+            <strong>Digite a resposta:</strong>
             <input type="number" id="resposta"> e
             <input type="Submit" onclick="capturar()" value="clique aqui">
+            <button onclick="limpar" id="limpar">Limpar</button>
             <p class="valorDigitado"></p>
         </div>
+
     </section>
+    <br>
+
     <footer>
-        <p>&copy; MNL</p>
+        <p>&copy; Miguel Arthur Tardin de Lima</p>
     </footer>
     <script src=" script.js "></script>
 </body>
