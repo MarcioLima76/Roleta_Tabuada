@@ -15,11 +15,10 @@ button2.onclick = function gerenate() {
 
 
 function verificar() {
-    let n1 = Number(document.querySelector("#ranNum1").innerHTML);
-    let n2 = Number(document.querySelector("#ranNum2").innerHTML);
+    let n1 = +document.querySelector("#ranNum1").innerHTML;
+    let n2 = +document.querySelector("#ranNum2").innerHTML;
 
-    let resultado = (n1) * (n2);
-    document.querySelector(".resultado").innerHTML = resultado;
+
     if (!n1 || !n2) return alert("É obrigatório gerar os 2 números");
     let resultado = parseInt(n1) * parseInt(n2);
 
