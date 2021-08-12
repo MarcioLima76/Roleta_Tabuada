@@ -1,13 +1,13 @@
 let button1 = document.getElementById("generate1");
 button1.onclick = function gerenate() {
-    let randomNum1 = Math.floor(Math.random() * 10 + 0);
+    let randomNum1 = Math.floor(Math.random() * 10 + 1);
     let el1 = document.getElementById("ranNum1");
     el1.innerHTML = randomNum1;
 };
 
 let button2 = document.getElementById("generate2");
 button2.onclick = function gerenate() {
-    let randomNum2 = Math.floor(Math.random() * 10 + 0);
+    let randomNum2 = Math.floor(Math.random() * 10 + 1);
     let el2 = document.getElementById("ranNum2");
     el2.innerHTML = randomNum2;
 
@@ -44,4 +44,5 @@ function capturar() {
         valorDigitado.innerHTML += `<p>Errado! Tente novamente</p>`;
         valorDigitado.innerHTML += `Valor correto: ${resultado}`;
     }
+
 }
