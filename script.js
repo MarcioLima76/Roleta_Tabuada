@@ -46,3 +46,7 @@ function capturar() {
     }
 
 }
+
+function reset() {
+    window.location.reload();
+}
