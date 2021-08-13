@@ -43,7 +43,8 @@
             Digite a resposta:
             <input type="number" id="resposta"> e
             <input type="Submit" onclick="capturar()" value="clique aqui">
-            <p class="valorDigitado"></p>
+ 	<input type="button" onclick="reset()" value="Limpar" />            
+	<p class="valorDigitado"></p>
         </div>
     </section>
     <footer>

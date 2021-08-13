@@ -46,3 +46,6 @@ function capturar() {
         valorDigitado.innerHTML += `Valor correto: ${resultado}`;
     }
 }
+function reset() {
+    window.location.reload();
+}

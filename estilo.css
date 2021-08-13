@@ -1,35 +1,50 @@
-                                 body {
-                                 background: rgb(138, 153, 177);
-                                 font: normal 15pt Arial;
-                                 font-size: 125%;
-                                 line-height: 1;
-                                 -webkit-font-smoothing: antialiased;
-                             }
-                             
-                             header {
-                                 color: white;
-                                 text-align: center;
-                                 font-size: 125%;
-                             }
-                             
-                             .button {
-                                 text-align: center;
-                             }
-                             
-                             section {
-                                 background: white;
-                                 border-radius: 10px;
-                                 padding: 15px;
-                                 width: 700px;
-                                 margin: auto;
-                                 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
-                             }
-                             
-                             p {
-                                 text-align: center;
-                             }
-                             
-                             footer {
-                                 color: white;
-                                 text-align: center;
-                                 font-style: italic;
+                body {
+                background: #F8E8DA;
+                font: normal 15pt Arial;
+                font-size: 125%;
+                line-height: 1;
+                -webkit-font-smoothing: antialiased;
+            }
+            
+            header {
+                color: #AB3C6C;
+                text-align: center;
+                font-size: 125%;
+            }
+            
+            button {
+                background-color: #1FAD27;
+                /* Green */
+                border: none;
+                color: white;
+                padding: 10px 10px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 12px;
+            }
+            
+            section {
+                font-size: 125%;
+                color: #563CAB;
+                background: #D2FAD4;
+                border-radius: 10px;
+                padding: 15px;
+                width: 800px;
+                height: 550px;
+                margin: auto;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+            }
+            
+            p {
+                text-align: center;
+            }
+            
+            footer {
+                color: #AB3C6C;
+                color: ;
+                text-align: center;
+                font-style: italic;
