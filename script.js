@@ -43,9 +43,12 @@ function capturar() {
     } else {
         valorDigitado.innerHTML += `<p>Errado! Tente novamente</p>`;
         valorDigitado.innerHTML += `Valor correto: ${resultado}`;
+
     }
 
 }
+
+
 
 function reset() {
     window.location.reload();
